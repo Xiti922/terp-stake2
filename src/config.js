@@ -1,6 +1,6 @@
 export const config = {
     RPC_URL: 'https://137.184.76.99:26657',
-    REST_URL: 'https://137.184.76.99:1317',
+    REST_URL: 'http://137.184.76.99:1317',
     EXPLORER_URL: 'https://explorer.omniflix.network',
     STAKING_URL: 'https://flix.omniflix.co/stake',
     NETWORK_NAME: 'Terp-Chain',
