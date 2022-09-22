@@ -1,6 +1,6 @@
 export const config = {
-    RPC_URL: 'https://chtd-rpc.skynetvalidators.com',
-    REST_URL: 'https://chtd-api.skynetvalidators.com/',
+    RPC_URL: 'https://rpc-terp.zenchainlabs.io',
+    REST_URL: 'https://api-terp.zenchainlabs.io',
     EXPLORER_URL: 'https://explorer.omniflix.network',
     STAKING_URL: 'https://flix.omniflix.co/stake',
     NETWORK_NAME: 'Terp-Chain',
