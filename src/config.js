@@ -7,18 +7,9 @@ export const config = {
     NETWORK_TYPE: 'testnet',
     CHAIN_ID: 'athena-1',
     CHAIN_NAME: 'Terp-Chain',
-    CURRENCIES: [
-      {
-        coinDenom: "TERPX",
-        coinMinimalDenom: "uterpx",
-        coinDecimals: 6,
-      },
-      {
-        coinDenom: "PERSYX",
-        coinMinimalDenom: "upersyx",
-        coinDecimals: 6,
-      },
-    ], 
+    COIN_DENOM: 'TERPX',
+    COIN_MINIMAL_DENOM: 'uterpx',
+    COIN_DECIMALS: 6,
     PREFIX: 'terp',
     COIN_TYPE: 118,
     COSMOSTAION: null,
