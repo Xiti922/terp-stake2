@@ -1,6 +1,6 @@
 export const config = {
-    RPC_URL: 'https://137.184.76.99:26657',
-    REST_URL: 'http://137.184.76.99:1317',
+    RPC_URL: 'https://chtd-rpc.skynetvalidators.com',
+    REST_URL: 'https://chtd-api.skynetvalidators.com/',
     EXPLORER_URL: 'https://explorer.omniflix.network',
     STAKING_URL: 'https://flix.omniflix.co/stake',
     NETWORK_NAME: 'Terp-Chain',
@@ -17,5 +17,6 @@ export const config = {
     GAS_PRICE_STEP_LOW: 0.0025,
     GAS_PRICE_STEP_AVERAGE: 0.025,
     GAS_PRICE_STEP_HIGH: 0.04,
+    FEE_CURRENCY: 'upersyx',
     FEATURES: ['ibc-transfer', 'ibc-go'],
 };
