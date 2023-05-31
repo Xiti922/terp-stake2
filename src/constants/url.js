@@ -18,6 +18,6 @@ export const PROPOSALS_LIST_URL = `${REST_URL}/cosmos/gov/v1/proposals`;
 export const getDelegatedValidatorsURL = (address) => `${REST_URL}/staking/delegators/${address}/validators`;
 export const urlFetchProposalVotes = (id) => `${REST_URL}/cosmos/gov/v1/proposals/${id}/votes`;
 export const urlFetchTallyDetails = (id) => `${REST_URL}/cosmos/gov/v1/proposals/${id}/tally`;
-export const urlFetchProposalDetails = (id) => `${REST_URL}/cosmos/tx/v1/txs?events=submit_proposal.proposal_id=${id}`;
+export const urlFetchProposalDetails = (id) => `${REST_URL}/cosmos/tx/v1beta1/txs?events=submit_proposal.proposal_id=${id}`;
 
 export const validatorImageURL = (id) => `https://keybase.io/_/api/1.0/user/lookup.json?fields=pictures&key_suffix=${id}`;
