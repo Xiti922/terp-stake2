@@ -9,7 +9,7 @@ export const urlFetchVestingBalance = (address) => `${REST_URL}/auth/accounts/${
 export const urlFetchUnBondingDelegations = (address) => `${REST_URL}/staking/delegators/${address}/unbonding_delegations`;
 
 export const urlFetchRewards = (address) => `${REST_URL}/distribution/delegators/${address}/rewards`;
-export const urlFetchVoteDetails = (proposalId, address) => `${REST_URL}/gov/proposals/${proposalId}/votes/${address}`;
+export const urlFetchVoteDetails = (proposalId, address) => `${REST_URL}cosmos/gov/v1/proposals/${proposalId}/votes/${address}`;
 
 export const VALIDATORS_LIST_URL = `${REST_URL}/staking/validators`;
 export const INACTIVE_VALIDATORS_URL = `${REST_URL}/staking/validators?status=BOND_STATUS_UNBONDED`;
